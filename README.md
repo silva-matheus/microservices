@@ -1,8 +1,8 @@
-# Micro-serviços com Node.js
+# MIcroservices with Node.js
 
 This project aims to develop an application with Micro Services from scratch, applying the concepts of the proposed architecture and best programming practices. The following project stands out as a Proof of Concept, not taking into account a series of issues, and therefore shouldn't be used in a production environment.
 
-# O que são Micro Serviços?
+# What is Microservices?
 
 Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
 
@@ -16,7 +16,7 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 
 **Fonte: <https://microservices.io/>**
 
-# Tecnologias Utilizadas
+# Used Technologies
 
 - Kafka:
   - Kafka.js;
@@ -32,7 +32,7 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 
 # Docker
 
-## Comandos úteis do Docker
+## Useful Docker Commands
 
 - docker ps => Show running containers;
 - docker run -p <porta_pc>:<porta_docker> <nome_do_container> => run a container in an specific port
@@ -54,7 +54,7 @@ Kubernates is a container orchestrator used to manage and facilitate distributed
 - Minikube => Localhost development environment do Kubernates(used for dev and tests);
 - Kubctl => comand line tool for Cluster Kubernates; 
 
-# Fluxo da Aplicação
+# Application Flow
 
 The application has 4 distinct REST APIs, each built with a different framework, in order to emulate a system for invoice issuing in addition to a Log API.
 
