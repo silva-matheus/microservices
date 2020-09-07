@@ -1,8 +1,8 @@
-# MIcroservices with Node.js
+# Microservices with Node.js
 
 This project aims to develop an application with Micro Services from scratch, applying the concepts of the proposed architecture and best programming practices. The following project stands out as a Proof of Concept, not taking into account a series of issues, and therefore shouldn't be used in a production environment.
 
-# What is Microservices?
+# What are Microservices?
 
 Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
 
